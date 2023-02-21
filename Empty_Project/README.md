@@ -20,7 +20,7 @@ Push:
 git push origin <branch>
 <branch> là tên của branch muốn push lên
 
-Branch mặc định là master
+Branch mặc định là master, hoac main
 
 Tạo branch mới bằng:
 git checkout -b <Tên branch: viết liền, ko dấu, có thể dùng_>

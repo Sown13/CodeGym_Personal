@@ -1,0 +1,20 @@
+Begin
+    Input Point = Num
+    If Point >= 75
+        Display Rank A
+        Else
+            If Point < 75 and Point >=60
+                Display Rank B
+                Else
+                    If Point <60 and Point >=45
+                        Display Rank C
+                        Else
+                            If Point <45 and Point >=35
+                            Display Rank D
+                            Else
+                                Display Rank E
+                            End If
+                    End If
+            End IF
+    End If
+End

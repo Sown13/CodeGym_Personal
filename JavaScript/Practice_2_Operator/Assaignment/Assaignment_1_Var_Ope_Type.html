@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <title>Bài tập "Biến, kiểu dữ liệu và toán tử"</title>
+</head>
+<body>
+    <h1>TÍNH ĐIỂM TRUNG BÌNH SINH VIÊN</h1>
+        <table>
+
+            <tr>
+                <th style="color:red"> Môn </th>
+                <th> <label for="vatly"> Vật Lý </label></th>
+                <th> <label for="hoahoc"> Hóa Học </label></th>
+                <th> <label for="sinhhoc"> Sinh Học </label></th>
+            </tr>
+            <tr>
+                <th style="color:red"> Điểm </th>
+                <td>
+                    <input  id="vatly" type="number" name="pointP">
+                </td>
+                <td>
+                    <input id="hoahoc" type="number" name="pointC">
+                </td>
+                <td>
+                    <input id="sinhhoc" type="number" name="pointB">
+                </td>
+            </tr>
+            <tr>
+                <th style="color:red"> Điểm trung bình </th>
+                <td colspan="3" id="trungbinh">
+                    <input type="button" value="Tính" onclick="averageCal()">
+                    <script src="point_of_student.js"></script>
+                </td>
+            </tr>
+        </table>
+    <button type="submit" onClick="window.location.reload();">Refresh</button>
+<br>
+<br>
+<br>
+    <h1> Chuyển độ C sang độ F </h1>
+    <script src="temperature.js"></script>
+    <button onclick="CtoF()">Transfer</button>
+    <p id="Fahren"></p>
+<br>
+<br>
+<br>
+    <h1> <label for="bankinh">Tính diện tích và chu vi hình tròn </label> </h1>
+    <script src="circle_calculator.js"></script>
+    <input type="number" id="bankinh" placeholder="nhập bán kính hình tròn">
+    <button onclick="Circle()">Transfer</button>
+    <p id="dientich"></p>
+</body>
+</html>

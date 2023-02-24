@@ -1,5 +1,5 @@
-let width = 20
-let height = 10
-let area = width * height
+let Width = 20
+let Length = 10
+let Area = Width * Length
 
-document.write('Area = ' + area)
+document.write('Aera = ' + Area)

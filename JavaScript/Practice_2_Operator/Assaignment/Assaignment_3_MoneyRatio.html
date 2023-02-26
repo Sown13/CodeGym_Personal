@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Bài tập chuyển đổi tiền tệ </title>
+</head>
+<body>
+<h1> Chuyển đổi tiền tệ </h1>
+<form action="Assaignment_3_MoneyRatio.html" method="get">
+<table>
+    <tr>
+        <td rowspan="2" colspan="2">
+            <p> <label for="currency"> Giá trị tiền muốn đổi </label> </p>
+            <input type="number" id="currency">
+        </td>
+        <td rowspan="2" colspan="2">
+            <p style="color:red"> <label for="fromNation"> Từ loại tiền </label> </p>
+            <select name="from" id="fromNation">
+                <option name="vnd" value=1>VND</option>
+                <option name="usd" value=1/23000>USD</option>
+                <option name="hkd" value=1/3030>HKD</option>
+                <option name="yen" value=1/175>YEN</option>
+            </select>
+        </td>
+        <td rowspan="2" colspan="2">
+            <p style="color:blue"> <label for="toNation"> Sang loại tiền </label></p>
+            <select name="to" id="toNation">
+                <option name="tovnd" value=1>VND</option>
+                <option name="tousd" value=1/23000>USD</option>
+                <option name="tohkd" value=1/3030>HKD</option>
+                <option name="toyen" value=1/175>YEN</option>
+            </select>
+        </td>
+        <td> <p></p>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+    <button type="button" id="converse"> ĐỔI </button>
+
+</form>
+
+
+<p id="result"></p>
+<script src="money_converse.js"></script>
+</body>
+</html>

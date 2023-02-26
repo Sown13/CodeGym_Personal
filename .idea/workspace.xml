@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53c84f8-8e90-410a-9f9b-586b38c486cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/Assaignment_1_Var_Ope_Type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/circle_calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/point_of_student.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/temperature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/Assaignment_2_Calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/Assaignment_3_MoneyRatio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/calculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/money_converse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Empty_Project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Empty_Project/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Practice/Practice_4_BingSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Practice/Practice_4_BingSearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/Assaignment_1_Var_Ope_Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Practice_2_Operator/Assaignment/Assaignment_1_Var_Ope_Type.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,9 @@
       <workItem from="1677080881567" duration="665000" />
       <workItem from="1677081719193" duration="4047000" />
       <workItem from="1677121744597" duration="7677000" />
-      <workItem from="1677207364569" duration="16491000" />
+      <workItem from="1677207364569" duration="19837000" />
+      <workItem from="1677308217947" duration="12450000" />
+      <workItem from="1677382073558" duration="6396000" />
     </task>
     <servers />
   </component>
